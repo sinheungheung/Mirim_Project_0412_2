@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             textResult.setText(R.string.text_result);
-            textResult.append(" "+result);
+            textResult.append(" "+String.format("%.2f",result));
+
 
 
         }
